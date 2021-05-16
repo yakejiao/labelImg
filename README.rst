@@ -95,6 +95,7 @@ Note: The Last command gives you a nice .app file with a new SVG Icon in your /A
 
 make qt5py3 Error Fixed:
 ^^^^^^^
+
 make: pyrcc5: No such file or directory
 find pyrcc5 and copy path, /Library/Frameworks/Python.framework/Versions/3.7/bin/pyrcc5
 
@@ -103,7 +104,8 @@ link <https://stackoverflow.com/questions/58039085/pyrcc5-no-such-file-or-direct
 -under labelImg find 'Makefile' and edit
 -change line qt5py3: pyrcc5 to qt5py3: 'copied path'/pyrcc5 and save
 -and
-^^^^^^^
+
+^^^^^^^^^^^^^^^^^^
 
 Windows
 ^^^^^^^
