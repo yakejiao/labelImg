@@ -76,6 +76,19 @@ Python 3 + Qt5
     python3 labelImg.py [IMAGE_PATH] [PRE-DEFINED CLASS FILE]
 
 
+`
+make: pyrcc5: No such file or directory
+find pyrcc5 and copy path, /Library/Frameworks/Python.framework/Versions/3.7/bin/pyrcc5
+
+link <https://stackoverflow.com/questions/58039085/pyrcc5-no-such-file-or-directory>
+-find 'pyrcc5' under python bin, and copy 'path'
+-under labelImg find 'Makefile' and edit
+-change line qt5py3: pyrcc5 to qt5py3: 'copied path'/pyrcc5 and save
+-and
+
+`
+
+
 Python 3 Virtualenv (Recommended)
 
 Virtualenv can avoid a lot of the QT / Python version issues
